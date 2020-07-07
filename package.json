@@ -1,0 +1,16 @@
+{
+  "name": "hoscheck",
+  "version": "1.0.0",
+  "description": "检查医院号源",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "clear": "node clear.js"
+  },
+  "author": "axiref",
+  "license": "MIT",
+  "dependencies": {
+    "dingtalk-robot-sender": "^1.2.0",
+    "redis": "^3.0.2"
+  }
+}

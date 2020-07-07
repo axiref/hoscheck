@@ -1,0 +1,23 @@
+module.exports = 
+{
+    // redis的配置
+    redis: {
+        host: "127.0.0.1",
+        port: 6379,
+        auth_pass: null,// redis密码
+    },
+    // 钉钉机器人的配置
+    dingRobot: {
+        accessToken: "",
+        secret: "",
+    },
+    // redis cache的配置
+    keys: {
+        content: "_cache_hoscheck_",
+        lastDate: "_cache_hoscheck_lastdate_"
+    },
+    // 钉钉管理员的手机号（用于at）
+    admin: "",
+    // 打开挂号网，打开点开某个医生的页面，打开浏览器Network抓包，过滤填“shiftcase”，将URL复制，去掉最后的&_参数
+    url: "https://www.guahao.com/expert/new/shiftcase?expertId=02e6d8e8-4c01-4ac1-ab92-5fdd6b646d26000&hospDeptId=635c2c7f-bb79-4e19-966d-59556081d019000&hospId=125361059609302000",
+}
