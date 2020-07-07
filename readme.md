@@ -33,7 +33,7 @@ npm run start
 然后设置`Crontab`，10分钟运行一次本脚本(`crontab -e`添加):
 
 ```bash
-*/5 * * * * cd /path-to-your-project && node run start >> /dev/null 2&1
+*/5 * * * * cd /path-to-your-project && node index.js >> /dev/null 2&1
 ```
 
 
