@@ -11,6 +11,6 @@
   "license": "MIT",
   "dependencies": {
     "dingtalk-robot-sender": "^1.2.0",
-    "redis": "^3.0.2"
+    "redis": "^3.1.1"
   }
 }
